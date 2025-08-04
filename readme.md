@@ -14,6 +14,9 @@ This project is a Netflix-inspired landing page built with pure HTML, CSS, and J
 
 ---
 
+### Live Demo
+[Netflix-Clone-T5 (live demo)](https://www.ali-amir-code.github.io/netflix-clone-t5)
+
 ### Key Features
 1. **Hero Section**
    - Full-screen background with gradient overlay
