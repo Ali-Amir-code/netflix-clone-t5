@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Netflix - Watch Series, Movies & TV Shows Online</title>
+  </head>
+  <body>
+    <nav>
+      <div class="navbar">
+        <div class="logo">
+          <img src="assets//logo.svg" alt="Logo" width="150" />
+        </div>
+        <div class="menu">
+          <button class="signin">Sign In</button>
+        </div>
+      </div>
+    </nav>
+    <main>
+      <div class="bg-section"></div>
+      <div class="hero-section">
+        <h1>Unlimited films,</h1>
+        <h1>series and more</h1>
+        <p>Starts at PKR5000. Cancel at any time.</p>
+        <form>
+          <p>
+            Ready to watch? Enter your email to create or restart your
+            membership.
+          </p>
+          <div class="form-container">
+            <input type="email" name="" id=" " placeholder="Email Address" />
+            <button>Get Started</button>
+          </div>
+        </form>
+      </div>
+    </main>
+    <section class="curve-container">
+      <div class="curve">
+        <svg
+          width="100%"
+          height="220"
+          viewBox="0 0 1000 220"
+          xmlns="http://www.w3.org/2000/svg"
+          preserveAspectRatio="none"
+        >
+          <defs>
+            <linearGradient
+              id="gradientStroke"
+              x1="0%"
+              y1="0%"
+              x2="100%"
+              y2="0%"
+            >
+              <stop offset="0%" stop-color="#ff2a6d" />
+              <stop offset="50%" stop-color="#d81f26" />
+              <stop offset="51%" stop-color="#d81f26" />
+              <stop offset="100%" stop-color="#ff2a6d" />
+            </linearGradient>
+          </defs>
+
+          <!-- Black curved section under the gradient curve -->
+          <path
+            d="
+      M0,100
+      Q500,15 1000,100
+      L1000,220
+      L0,220
+      Z"
+            fill="black"
+          />
+
+          <!-- Gradient top curve -->
+          <path
+            d="
+      M0,100
+      Q500,0 1000,100
+      Q500,15 0,100
+      Z"
+            fill="url(#gradientStroke)"
+          />
+        </svg>
+      </div>
+    </section>
+
+    <section class="trending-section">
+      <h2>Trending Now</h2>
+      <div class="trending-slider">
+        <button class="nav-btn prev" id="prevBtn">‹</button>
+        <div class="slider-track" id="track">
+          <div
+            class="slide"
+            style="background-image: url('assets/s1.jpg')"
+          ></div>
+          <div
+            class="slide"
+            style="background-image: url('assets/s2.jpg')"
+          ></div>
+          <div
+            class="slide"
+            style="background-image: url('assets/s3.jpg')"
+          ></div>
+          <div
+            class="slide"
+            style="background-image: url('assets/s4.jpg')"
+          ></div>
+          <div
+            class="slide"
+            style="background-image: url('assets/s5.jpg')"
+          ></div>
+          <div
+            class="slide"
+            style="background-image: url('assets/s6.jpg')"
+          ></div>
+          <div
+            class="slide"
+            style="background-image: url('assets/s7.jpg')"
+          ></div>
+          <div
+            class="slide"
+            style="background-image: url('assets/s8.jpg')"
+          ></div>
+          <div
+            class="slide"
+            style="background-image: url('assets/s9.jpg')"
+          ></div>
+          <div
+            class="slide"
+            style="background-image: url('assets/s10.jpg')"
+          ></div>
+        </div>
+        <button class="nav-btn next" id="nextBtn">›</button>
+      </div>
+    </section>
+
+    <section class="reasons-section">
+      <h2>More Reasons to Join</h2>
+      <div class="reasons-container">
+        <div class="reason">
+          <h3>Enjoy on your TV.</h3>
+          <p>
+            Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blu-ray
+            players, and more.
+          </p>
+          <div class="img-container">
+            <img src="assets/r1.png" alt="reason1" />
+          </div>
+        </div>
+        <div class="reason">
+          <h3>Download your shows to watch offline.</h3>
+          <p>Save your favorites easily and always have something to watch.</p>
+          <div class="img-container">
+            <img src="assets/r2.png" alt="reason2" />
+          </div>
+        </div>
+        <div class="reason">
+          <h3>Watch everywhere.</h3>
+          <p>
+            Stream unlimited movies and TV shows on your phone, tablet, laptop,
+            and TV.
+          </p>
+          <div class="img-container">
+            <img src="assets/r3.png" alt="reason3" />
+          </div>
+        </div>
+        <div class="reason">
+          <h3>Create profiles for kids.</h3>
+          <p>
+            Send kids on adventures with their favorite characters in a space
+            made just for them — free with your membership.
+          </p>
+          <div class="img-container">
+            <img src="assets/r4.png" alt="reason4" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="faq-section">
+      <h2>Frequently Asked Questions</h2>
+      <div class="faq">
+        <div class="faq-item">
+          <div class="faq-question">What is Netflix?</div>
+          <div class="faq-answer">
+            <p>
+              Netflix is a streaming service that offers a wide variety of
+              award-winning TV shows, movies, anime, documentaries, and more on
+              thousands of internet-connected devices. You can watch as much as
+              you want, whenever you want without a single commercial - all for
+              one low monthly price. There's always something new to discover
+              and new TV shows and movies are added every week!
+            </p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-question">How much does Netflix cost?</div>
+          <div class="faq-answer">
+            <p>
+              Watch Netflix on your smartphone, tablet, Smart TV, laptop, or
+              streaming device, all for one fixed monthly fee. Plans range from
+              Rs 250 to Rs 1,100 a month. No extra costs, no contracts.
+            </p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-question">Where can I watch?</div>
+          <div class="faq-answer">
+            <p>
+              Watch anywhere, anytime. Sign in with your Netflix account to
+              watch instantly on the web at netflix.com from your personal
+              computer or on any internet-connected device that offers the
+              Netflix app, including smart TVs, smartphones, tablets, streaming
+              media players and game consoles. You can also download your
+              favorite shows with the iOS or Android app. Use downloads to watch
+              while you're on the go and without an internet connection. Take
+              Netflix with you anywhere
+            </p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-question">How do I cancel?</div>
+          <div class="faq-answer">
+            <p>
+              Netflix is flexible. There are no pesky contracts and no
+              commitments. You can easily cancel your account online in two
+              clicks. There are no cancellation fees – start or stop your
+              account anytime.
+            </p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-question">What can I watch on Netflix?</div>
+          <div class="faq-answer">
+            <p>
+              Netflix has an extensive library of feature films, documentaries,
+              TV shows, anime, award-winning Netflix originals, and more. Watch
+              as much as you want, anytime you want.
+            </p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-question">Is Netflix good for kids?</div>
+          <div class="faq-answer">
+            <p>
+              The Netflix Kids experience is included in your membership to give
+              parents control while kids enjoy family-friendly TV shows and
+              movies in their own space. Kids profiles come with PIN-protected
+              parental controls that let you restrict the maturity rating of
+              content kids can watch and block specific titles you don’t want
+              kids to see.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="form-section">
+      <form>
+        <p>
+          Ready to watch? Enter your email to create or restart your membership.
+        </p>
+        <div class="form-container">
+          <input type="email" name="" id=" " placeholder="Email Address" />
+          <button>Get Started</button>
+        </div>
+      </form>
+    </section>
+
+    <footer>
+      <p class="bold">Questions? <a href="#" style="color: white;">Contact Us</a></p>
+      <div class="footer-links">
+        <a href="#">FAQ</a>
+        <a href="#">Help Center</a>
+        <a href="#">Account</a>
+        <a href="#">Media Center</a>
+        <a href="#">Investor Relations</a>
+        <a href="#">Jobs</a>
+        <a href="#">Ways To Watch</a>
+        <a href="#">Terms Of Use</a>
+        <a href="#">Privacy</a>
+        <a href="#">Cookie Preferences</a>
+        <a href="#">Corporate Information</a>
+        <a href="#">Contact Us</a>
+        <a href="#">Speed Test</a>
+        <a href="#">Legal Notices</a>
+        <a href="#">Only on Netflix</a>
+      </div>
+      <p class="bold">Netflix Pakistan</p>
+    </footer>
+    <script src="index.js"></script>
+  </body>
+</html>
